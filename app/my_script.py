@@ -7,6 +7,6 @@ def enlarge(i):
 #need to remove from global scope for test
 
 if __name__ == "__main__":
-    my_number = float(input("Please input a number."))
+    my_number = float(input("Please input a number:"))
     n = enlarge(my_number)
     print("Enlarging the number:", n)
